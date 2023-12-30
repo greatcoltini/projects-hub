@@ -68,3 +68,8 @@ a.disabled {
     pointer-events: none;
     color: #ccc;
 }
+
+.orange-text {
+    color: orange;
+    font-weight: bolder;
+}

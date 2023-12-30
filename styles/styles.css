@@ -48,10 +48,18 @@ li a:hover:not(.active) {
     grid-column: 2;
     grid-row: 1;
     display: flex;  
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
 }
 
 img {
     max-width: 100%;
     object-fit: contain;
     margin: 25%;
+}
+
+.flex-img {
+    max-width: 40%;
+    margin: 5%;
 }

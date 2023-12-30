@@ -6,6 +6,8 @@
         <title> CD - Projects </title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/mobile.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     </head>
 
@@ -13,14 +15,41 @@
 
         <!-- nav containing left hand sig, right hand projects list -->
         <nav>
-
+            <ul class="topnav">
+                <li class="right"><a href="#website">Raft</a></li>
+                <li class="right"><a href="Game Development">Stonehearth</a></li>
+                <li class="right"><a href="#home">Necesse</a></li>
+                <li class="right"><a href="#home">Halo: Custom Edition</a></li>
+                <li class="mobile-hide"><a href="www.coltondonkersgoed.com" target="_blank">Colton Donkersgoed</a></li>
+            </ul>
         </nav>
 
 
         <!-- store info in grid container for nicer layout -->
         <div class="grid-container">
 
+            <!-- card on left hand side -->
+            <div class="jumbotron bg-dark text-light">
+                <h1 class="display-4">Shark Head = Shark Meat</h1>
+                <p class="lead">A simple solution to a cluttering problem.</p>
+                <hr class="my-4">
+                <p> Included a recipe to convert shark heads to shark meat, leading to less useless items on your raft!</p>
+                <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="https://www.raftmodding.com/mods/shark-meat-from-shark-head" target="_blank" role="button">RaftModding > 8000 downloads </a> <br><br>
+                  <a class="btn btn-primary btn-lg" href="https://github.com/greatcoltini/raft-modding" target="_blank" role="button">Github Repo</a>
+                </p>
+            </div>
+
+            <!-- flex gallery on righthand side-->
+            <div class="flex-gallery">
+                <img src="assets/raft-shark-head.jpg">
+            </div>
+
         </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     </body>
 

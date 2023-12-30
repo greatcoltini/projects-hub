@@ -1,3 +1,8 @@
+body {
+    background-color: rgb(31, 28, 28) !important;
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -19,9 +24,34 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    color: red;
+    opacity: 50%;
+    transition-duration: 1s;
 }
 
-.active {
-    background-color: #04AA6D;
+.right {
+    float:right;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 60% 30%;
+    margin: 5%;
+}
+
+.project-card{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.flex-gallery{
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;  
+}
+
+img {
+    max-width: 100%;
+    object-fit: contain;
+    margin: 25%;
 }

@@ -73,3 +73,39 @@ a.disabled {
     color: orange;
     font-weight: bolder;
 }
+
+.socials {
+    display: block;
+    position: relative;
+    margin-left: 37%;
+}
+
+.socials_links {
+    position: relative;
+    padding-left: 0%;
+    text-decoration: none;
+}
+
+.socials_links .image {
+    transition: opacity .5s;
+}
+
+.socials_links:hover .image {
+    opacity: 0.3;
+}
+
+.socialimg {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+    transition: opacity .5s;
+}
+
+.socialimg:hover {
+    opacity: 0.3;
+}
+
+a {
+    text-decoration: none;
+}
